@@ -2,10 +2,26 @@
 
 ## Description 
 ***
-
+This PWA challenge involves a browser-based text editor that meets PWA criteria and features data persistence techniques to function offline. The project utilizes the idb package, which is a lightweight wrapper around the IndexedDB API, to store and retrieve data. 
 
 ## Usage
 ***
+To use this app, you'll need to have Node.js installed on your computer. Once you have those installed, you can follow these steps:
+
+
+Install the necessary dependencies, please use:
+```
+npm install
+```
+
+To start the development server, run the following command:
+```
+npm run start:dev
+```
+To start the production server, run the following command:
+```
+npm start
+```
 
 
 
@@ -44,8 +60,27 @@ THEN I should have my static assets pre cached upon loading along with subsequen
 WHEN I deploy to Heroku
 THEN I should have proper build scripts for a webpack application
 ```
+## **App URL:**
 
-![screenshot]()
+[Deployed Site <-- CLICK ME!](https://polar-peak-54118.herokuapp.com/)
+
+
+![screenshot](./assets/Screenshot%202023-04-29%20215301.png)
 
 
 Sources: 
+
+blogrocket:
+- https://blog.logrocket.com/how-to-build-a-progressive-web-app-pwa-with-node-js/
+
+Stackoverflow:
+- https://stackoverflow.com/questions/70178726/webpack-manifest-json-not-found
+
+google/developer.chrome:
+- https://developer.chrome.com/docs/workbox/modules/workbox-precaching/
+- https://developer.chrome.com/docs/workbox/modules/workbox-recipes/
+
+ChatGPT, 
+Instrcutor: Bassie B., 
+TA: Ethan D.,
+Tutor: Jacob C. 
